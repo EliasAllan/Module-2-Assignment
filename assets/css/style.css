@@ -1,0 +1,16 @@
+h1{
+  font-family: sans-serif;
+  text-align: left;
+  color: black;
+}
+
+header{
+  background-image: url(../images/19862.jpg);
+  background-color: white;
+  background-size: cover;
+  background-position: center;  
+}
+
+#float-left{
+  float: left;
+}
