@@ -2,15 +2,19 @@ h1{
   font-family: sans-serif;
   text-align: left;
   color: black;
+  margin: 0px 0px 30px 72px;
 }
 
 header{
   background-image: url(../images/19862.jpg);
   background-color: white;
   background-size: cover;
-  background-position: center;  
+  background-position: center; 
+  background-size :center 465px; 
+  
 }
 
 #float-left{
   float: left;
+  
 }
