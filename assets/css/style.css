@@ -9,7 +9,7 @@ h1{
   font-family: sans-serif;
   text-align: left;
   color: black;
-  margin: 0px 0px 30px 72px;
+  margin: 0px 0px 30px 85px;
 }
 
 ul {
@@ -44,4 +44,13 @@ header nav ul a {
 #float-left{
   float: left;
   
+}
+
+h2{
+font-size:64px;
+}
+
+.titlesleft{
+float:left;
+margin:20px
 }
