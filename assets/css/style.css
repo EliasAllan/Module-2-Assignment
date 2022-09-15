@@ -29,14 +29,14 @@ ul {
   padding: 30px 0px 0px 30px;
 
 }
-  .quote{
+  #quote{
   position:relative;
   left:875px;
   bottom:20px;
   font-family: 'Cursive' 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
-section
+
 header{
   background-color: rgb(40,121,255);
   padding: 20px 20px 20px 120px;
