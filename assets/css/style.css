@@ -1,3 +1,4 @@
+/* Universal */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -5,29 +6,42 @@
   color:black
 }
 
-h1{
-  font-family: sans-serif;
-  text-align: left;
-  color: black;
-  margin: 0px 0px 0px 85px;
+/* changes display style and font size of name on nav bar */
+header h1 {
+  display: inline-block;
+  font-size: 32px;
 }
+
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 0 0 0 0;
   padding: 0;
-  background-color: white;
+  background-color: rgb(40,121,255);;
 }
 
 .banner{
-  background-image: url(../images/19862.jpg);
+  background-image: url(../images/19862rotated.jpg);
   background-color: white;
   background-size: cover;
-  background-position: center; 
   background-size :center 465px; 
-  
-}
+  margin:15px;
+  padding: 30px 0px 0px 30px;
 
+}
+  .quote{
+  position:relative;
+  left:875px;
+  bottom:20px;
+  font-family: 'Cursive' 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+section
+header{
+  background-color: rgb(40,121,255);
+  padding: 20px 20px 20px 120px;
+  border:30px;
+}
 header nav {
   float: right;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,10 +55,9 @@ header nav ul a {
   margin-right:10px;
 }
 
-#float-left{
-  float: left;
+/* #profile-picture{
   
-}
+} */
 
 h2{
 font-size:50px;
