@@ -3,7 +3,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  color:black
+  color:black;
+  /* background-color:#a5dbfd */
 }
 
 /* changes display style and font size of name on nav bar */
@@ -17,7 +18,7 @@ ul {
   list-style-type: none;
   margin: 0 0 0 0;
   padding: 0;
-  background-color: rgb(40,121,255);;
+  background-color: rgb(40,121,255);
 }
 
 .banner{
@@ -31,7 +32,7 @@ ul {
 }
   #quote{
   position:relative;
-  left:875px;
+  left:890px;
   bottom:20px;
   font-family: 'Cursive' 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
@@ -55,9 +56,10 @@ header nav ul a {
   margin-right:10px;
 }
 
-/* #profile-picture{
-  
-} */
+#first-application{
+position:relative;
+left:200px
+}
 
 h2{
 font-size:50px;
@@ -76,7 +78,7 @@ article{
   flex-direction:row;
   margin:15px;
   padding:10px;
-  background-color: rgba(55, 128, 224, 0.39);
+  /* background-color: #a5dbfd; */
 }
 
 h3{
