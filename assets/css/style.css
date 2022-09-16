@@ -13,7 +13,10 @@ header h1 {
   font-size: 32px;
 }
 
-
+Section{
+  border: 5px solid rgb(40,121,255);
+  margin:15px;
+}
 ul {
   list-style-type: none;
   margin: 0 0 0 0;
@@ -34,13 +37,14 @@ ul {
   position:relative;
   left:890px;
   bottom:20px;
-  font-family: 'Cursive' 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: cursive ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
+
 
 
 header{
   background-color: rgb(40,121,255);
-  padding: 20px 20px 20px 120px;
+  padding: 20px 20px 20px 108px;
   border:30px;
 }
 header nav {
@@ -58,9 +62,16 @@ header nav ul a {
 
 #first-application{
 position:relative;
-left:200px
+left:20px;
+border:5px solid rgb(40,121,255);
 }
 
+.other-applications{
+position:relative;
+left:220px;
+border:5px solid rgb(40,121,255);
+margin:0 90px 0 0;
+}
 h2{
 font-size:50px;
 line-height:1.2em;
@@ -68,8 +79,11 @@ line-height:1.2em;
 
 .titlesleft{
 float:left;
-margin:20px;
+margin:0px 20px 20px 106pxpx ;
+border: 1px solid black;
 text-align: center;
+width: 200px;
+height: 150px
 }
 
 article{
@@ -78,10 +92,19 @@ article{
   flex-direction:row;
   margin:15px;
   padding:10px;
-  /* background-color: #a5dbfd; */
+
 }
 
 h3{
   flex-direction:column;
+  margin: 20px;
+  width: 900px;
+  /* background-color:black */
 }
 
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration:underline;
+}
