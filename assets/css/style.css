@@ -11,54 +11,131 @@
 header h1 {
   display: inline-block;
   font-size: 32px;
+  margin-left: 110px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* changes styling in nav bar */
+header{
+  display: flex;
+  background-color: rgb(40,121,255);
+  align-content: center;
+  justify-content: space-between;
+}
+/* changes styling in nav bar */
+  nav{
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-end;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  
+}
+/* changes styling in nav bar links*/
+a{
+  margin:0px 10px;
+  text-decoration: none;
+  
+}
+/* changes styling in nav bar links*/
+a:hover{
+  text-decoration:underline;
 }
 
-Section{
+
+/* changes styling and flex attributes in banner  */
+.banner{
+  display:flex;
+  background-image: url(../images/19862rotated.jpg);
+  background-color: white;
+  background-size: cover;
+  margin:15px;
+  padding: 25px 0px 25px 25px;
+  border: 5px solid rgb(40,121,255);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+/* changes quote font */
+#quote{
+  
+  font-family: cursive ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+main{
+  display:flex;
+  /* position:relative; */
   border: 5px solid rgb(40,121,255);
   margin:15px;
+  flex-direction: column;
 }
-ul {
+
+.work{
+  display:flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.Aboutme{
+  display:flex;
+  justify-content: flex-start;
+  /* margin:20px */
+}
+
+h2{
+  font-size:50px;
+  /* line-height:1.2em; */
+  margin:20px;
+  display:flex;
+  } 
+
+  h3{
+    padding: 25px; 
+    border: 5px solid rgb(40,121,255);
+    flex-direction: column;
+    margin: 20px 20px 20px 65px;
+    width: 1037px;
+    
+}
+
+.other-applications{
+  position: relative;
+    border: 5px solid rgb(40,121,255);
+    left: 120px;
+    margin: 40px 7px 40px 193px;
+}
+
+#first-application{
+  border:5px solid rgb(40,121,255);
+  margin-left: 153px;
+}
+/* ul {
   list-style-type: none;
   margin: 0 0 0 0;
   padding: 0;
   background-color: rgb(40,121,255);
 }
 
-.banner{
-  background-image: url(../images/19862rotated.jpg);
+
+ul li{
+  float:right;
+}
+
+li{
+  margin:20px;
+  float:right;
+}
+
+.contactinfo{
   background-color: white;
-  background-size: cover;
-  background-size :center 465px; 
-  margin:15px;
-  padding: 30px 0px 0px 30px;
-
-}
-  #quote{
-  position:relative;
-  left:890px;
-  bottom:20px;
-  font-family: cursive ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-
-
-
-header{
-  background-color: rgb(40,121,255);
-  padding: 20px 20px 20px 108px;
-  border:30px;
-}
-header nav {
-  float: right;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 24px;
-  
+  font-size:35px;
 }
 
-header nav ul a {
-  
-  margin-left: 15px;
-  margin-right:10px;
-}
+
+
+
+
+
 
 #first-application{
 position:relative;
@@ -66,21 +143,46 @@ left:20px;
 border:5px solid rgb(40,121,255);
 }
 
+
 .other-applications{
+flex-wrap: wrap;
 position:relative;
-left:220px;
 border:5px solid rgb(40,121,255);
-margin:0 90px 0 0;
-}
-h2{
-font-size:50px;
-line-height:1.2em;
+margin:0 -98px 0 0;
+top:20px;
+left:220px;
+justify-content:flex-start
 }
 
-.titlesleft{
+#first-application-title{
+position:absolute;
+left: 248px;
+top: 600px;
+background-color:rgb(40,121,255);
+height:25px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size:18px;
+}
+.application-title{
+position:relative;
+left:-130px;
+top:250px;
+background-color:rgb(40,121,255);
+height:25px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size:18px;
+}
+
+img{
+  position:relative;
+}
+
+
+
+/* .titlesleft{
 float:left;
 margin:0px 20px 20px 106pxpx ;
-border: 1px solid black;
+border: 5px solid rgb(40,121,255);
 text-align: center;
 width: 200px;
 height: 150px
@@ -92,19 +194,17 @@ article{
   flex-direction:row;
   margin:15px;
   padding:10px;
+  flex-wrap:wrap;
+} */
 
-}
 
-h3{
-  flex-direction:column;
-  margin: 20px;
-  width: 900px;
-  /* background-color:black */
-}
 
-a{
-  text-decoration: none;
-}
-a:hover{
-  text-decoration:underline;
+
+
+@media screen and (max-width: 768px) {
+  /* Use flex-direction to stack the navbar, sidebar, and body */
+  .other-applications{
+    position:relative;
+    left:110px;
+  }
 }
