@@ -56,9 +56,6 @@ a:hover{
   justify-content: space-between;
 }
 
-
-
-
 #quote{
   
   font-family: cursive ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -88,7 +85,7 @@ h2{
   display:flex;
   } 
 
-  h3{
+h3{
     padding: 25px; 
     border: 5px solid rgb(40,121,255);
     flex-direction: column;
@@ -183,6 +180,8 @@ li{
     justify-content:flex-start;
   }
 
-  
+  nav li a{
+    margin:0;
 
+  }
 }
