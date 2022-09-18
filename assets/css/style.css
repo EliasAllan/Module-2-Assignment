@@ -130,6 +130,10 @@ li{
   header h1{
     margin-left:12px;
   }
+
+  #quote{
+  font-size:25px;
+  }
   .banner {
     display: flex;
     flex-direction: column;
@@ -182,6 +186,5 @@ li{
 
   nav li a{
     margin:0;
-
   }
 }
