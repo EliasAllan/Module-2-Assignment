@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   color:black;
-  /* background-color:#a5dbfd */
+
 }
 
 /* changes display style and font size of name on nav bar */
@@ -182,21 +182,24 @@ li{
     width:100%;
   }
 
-  
+  /* changes styling and flexbox attributes in the work section */
   section #work{
     flex-direction: column;
     align-items: center;
     width:100%;
   }
-  
+   /* changes styling in first application picture*/
   .other-applications{
     position: static;
     margin: auto;
     width:100%;
   }
+  /* changes styling in profile picture */
   #profile.picture{
     width:100%;
   }
+
+  /* changes styling in contact me section */
   #contactinfo{
     display:flex;
     width:100%;
@@ -205,6 +208,7 @@ li{
     justify-content:flex-start;
   }
 
+  /* resets margin for the footer items */
   nav li a{
     margin:0;
   }
