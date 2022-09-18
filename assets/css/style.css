@@ -55,12 +55,13 @@ a:hover{
   align-items: flex-end;
   justify-content: space-between;
 }
-
+/* changes quotes font style*/
 #quote{
   
   font-family: cursive ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
+  /* changes styling and flex values in the main box */
 main{
   display:flex;
   border: 5px solid rgb(40,121,255);
@@ -68,23 +69,27 @@ main{
   flex-direction: column;
 }
 
+/* changes styling in the work section */
 #work{
   display:flex;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
 
+/* changes styling in the about me section */
 #Aboutme{
   display:flex;
   justify-content: flex-start;
 }
 
+/* changes styling and flex values in the h2  */
 h2{
   font-size:50px;
   margin:20px;
   display:flex;
-  } 
+} 
 
+/* changes styling in the h3 section */
 h3{
     padding: 25px; 
     border: 5px solid rgb(40,121,255);
@@ -94,6 +99,13 @@ h3{
     
 }
 
+/* changes styling for the first application picture */
+#first-application{
+  border:5px solid rgb(40,121,255);
+  margin-left: 153px;
+}
+
+/* changes styling and positioning for the secondary applications (not the first application)on the website */
 .other-applications{
   position: relative;
     border: 5px solid rgb(40,121,255);
@@ -101,11 +113,7 @@ h3{
     margin: 40px 7px 40px 193px;
 }
 
-#first-application{
-  border:5px solid rgb(40,121,255);
-  margin-left: 153px;
-}
-
+/* changes styling for the contact me section */
 #contactinfo {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: flex;
@@ -114,42 +122,52 @@ h3{
   align-items:flex-end;
 }
 
+/* changes styling for the li section in the footer */
 li{
   list-style-type: none;
   margin:20px;
   font-size: 30px;
 }
 
-
+/* changes styling after screen goes below 768px */
 @media screen and (max-width: 768px) {
+  /* changes flex direction in the contents of the webpage */
   header,nav,.contactinfo
   {
   flex-direction: column;
   }
 
+/* adds margin to the portfolios owners name(Allan Elias)*/
   header h1{
     margin-left:12px;
   }
 
+  /* changes font size of the quote */
   #quote{
   font-size:25px;
   }
+
+  /* adds flex properties to the banner */
   .banner {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
+   
+  /* changes flex properties of the main section */
   }
   main{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
+
+  /* changes flex properties of about me text*/
   h3{
     margin: auto;
     width: auto;
   }
 
+  /* changes flex properties of about me section*/
   #Aboutme{
     flex-direction: column;
     align-items: center;
@@ -157,11 +175,14 @@ li{
     display:inline;
   }
 
+  /* changes styling in first application picture*/
   #first-application {
     border: 5px solid rgb(40,121,255);
     margin:auto;
     width:100%;
-}
+  }
+
+  
   section #work{
     flex-direction: column;
     align-items: center;
