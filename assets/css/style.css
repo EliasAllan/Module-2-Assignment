@@ -56,7 +56,9 @@ a:hover{
   justify-content: space-between;
 }
 
-/* changes quote font */
+
+
+
 #quote{
   
   font-family: cursive ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -64,27 +66,24 @@ a:hover{
 
 main{
   display:flex;
-  /* position:relative; */
   border: 5px solid rgb(40,121,255);
   margin:15px;
   flex-direction: column;
 }
 
-.work{
+#work{
   display:flex;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
 
-.Aboutme{
+#Aboutme{
   display:flex;
   justify-content: flex-start;
-  /* margin:20px */
 }
 
 h2{
   font-size:50px;
-  /* line-height:1.2em; */
   margin:20px;
   display:flex;
   } 
@@ -110,7 +109,7 @@ h2{
   margin-left: 153px;
 }
 
-.contactinfo {
+#contactinfo {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: flex;
   background-color: rgb(40,121,255);
@@ -125,101 +124,7 @@ li{
 }
 
 
-
-  /* ul {
-  list-style-type: none;
-  margin: 0 0 0 0;
-  padding: 0;
-  background-color: rgb(40,121,255);
-}
-
-
-ul li{
-  float:right;
-}
-
-li{
-  margin:20px;
-  float:right;
-}
-
-.contactinfo{
-  background-color: white;
-  font-size:35px;
-}
-
-
-
-
-
-
-
-#first-application{
-position:relative;
-left:20px;
-border:5px solid rgb(40,121,255);
-}
-
-
-.other-applications{
-flex-wrap: wrap;
-position:relative;
-border:5px solid rgb(40,121,255);
-margin:0 -98px 0 0;
-top:20px;
-left:220px;
-justify-content:flex-start
-}
-
-#first-application-title{
-position:absolute;
-left: 248px;
-top: 600px;
-background-color:rgb(40,121,255);
-height:25px;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size:18px;
-}
-.application-title{
-position:relative;
-left:-130px;
-top:250px;
-background-color:rgb(40,121,255);
-height:25px;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size:18px;
-}
-
-img{
-  position:relative;
-}
-
-
-
-/* .titlesleft{
-float:left;
-margin:0px 20px 20px 106pxpx ;
-border: 5px solid rgb(40,121,255);
-text-align: center;
-width: 200px;
-height: 150px
-}
-
-article{
-  line-height: 150%;
-  display:flex;
-  flex-direction:row;
-  margin:15px;
-  padding:10px;
-  flex-wrap:wrap;
-} */
-
-
-
-
-
 @media screen and (max-width: 768px) {
-  /* Use flex-direction to stack the navbar, sidebar, and body */
   header,nav,.contactinfo
   {
   flex-direction: column;
@@ -232,6 +137,7 @@ article{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    
   }
   main{
     display: flex;
@@ -243,23 +149,40 @@ article{
     width: auto;
   }
 
-  .Aboutme{
+  #Aboutme{
     flex-direction: column;
     align-items: center;
+    width:100%;
+    display:inline;
   }
 
   #first-application {
     border: 5px solid rgb(40,121,255);
     margin:auto;
+    width:100%;
 }
-  section .work{
+  section #work{
     flex-direction: column;
     align-items: center;
+    width:100%;
   }
   
- 
   .other-applications{
     position: static;
     margin: auto;
+    width:100%;
   }
+  #profile.picture{
+    width:100%;
+  }
+  #contactinfo{
+    display:flex;
+    width:100%;
+    align-items: flex-start;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+  }
+
+  
+
 }
