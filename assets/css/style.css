@@ -113,6 +113,9 @@ h3{
     margin: 40px 7px 40px 193px;
 }
 
+.image-label{
+  position: absolute;
+}
 /* changes styling for the contact me section */
 #contactinfo {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
