@@ -56,6 +56,11 @@ a:hover{
   justify-content: space-between;
 }
 /* changes quotes font style*/
+
+.imgtitles{
+  position: absolute;
+  top:10px;
+}
 #quote{
   
   font-family: cursive ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -113,7 +118,7 @@ h3{
 
 /* changes styling and positioning for the secondary applications (not the first application)on the website */
 .other-applications{
-  position: relative;
+  /* position: relative; */
     border: 5px solid rgb(40,121,255);
     width: 43.3%;
 }
