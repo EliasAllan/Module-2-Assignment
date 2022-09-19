@@ -32,7 +32,7 @@ header{
 }
 /* changes styling in nav bar links*/
 a{
-  margin:0px 10px;
+  margin:0px 40px;
   text-decoration: none;
   
 }
@@ -61,6 +61,9 @@ a:hover{
   font-family: cursive ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
+  div{
+    margin:37px;
+  }
   /* changes styling and flex values in the main box */
 main{
   display:flex;
@@ -69,12 +72,14 @@ main{
   flex-direction: column;
 }
 
+
 /* changes styling in the work section */
 #work{
   display:flex;
   justify-content: flex-start;
-  flex-wrap: wrap;
+
 }
+
 
 /* changes styling in the about me section */
 #Aboutme{
@@ -102,15 +107,15 @@ h3{
 /* changes styling for the first application picture */
 #first-application{
   border:5px solid rgb(40,121,255);
-  margin-left: 153px;
+  width:92%;
 }
+
 
 /* changes styling and positioning for the secondary applications (not the first application)on the website */
 .other-applications{
   position: relative;
     border: 5px solid rgb(40,121,255);
-    left: 120px;
-    margin: 40px 7px 40px 193px;
+    width: 43.3%;
 }
 
 .image-label{
@@ -132,6 +137,13 @@ li{
   font-size: 30px;
 }
 
+/* changes styling after screen goes below 1590px */
+@media screen and (max-width: 1590px) {
+  .other-applications {
+    position: relative;
+    border: 5px solid rgb(40,121,255);
+    width: 92%;
+} 
 /* changes styling after screen goes below 768px */
 @media screen and (max-width: 768px) {
   /* changes flex direction in the contents of the webpage */
@@ -139,7 +151,7 @@ li{
   {
   flex-direction: column;
   }
-
+}
 /* adds margin to the portfolios owners name(Allan Elias)*/
   header h1{
     margin-left:12px;
@@ -153,6 +165,7 @@ li{
   /* adds flex properties to the banner */
   .banner {
     display: flex;
+
     flex-direction: column;
     align-items: flex-start;
    
@@ -191,6 +204,15 @@ li{
     align-items: center;
     width:100%;
   }
+  a{
+    margin: 0px 10px;
+    text-decoration: none;
+  }
+  #work{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
    /* changes styling in first application picture*/
   .other-applications{
     position: static;
@@ -212,7 +234,12 @@ li{
   }
 
   /* resets margin for the footer items */
-  nav li a{
+  li a{
     margin:0;
+  }
+  div{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
   }
 }
