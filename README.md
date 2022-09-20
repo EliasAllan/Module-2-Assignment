@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a portoflio for a Upenn bootcamp student. It's designed to consolidate what was learned in module 2, and it serves as a personal portfolio for the student after the program is completed. The placeholder images are to be filled later on with actual project made by the students.
+This is a portoflio for a Upenn bootcamp student. It's designed to consolidate what was learned in module 2, and it serves as a personal portfolio for the student after the program is completed. The placeholder images are to be filled later on with actual projects made by the students.
 
 ## Overview
 
