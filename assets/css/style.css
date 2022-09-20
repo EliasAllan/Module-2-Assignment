@@ -56,17 +56,12 @@ a:hover{
   align-items: flex-end;
   justify-content: space-between;
 }
-/* changes quotes font style*/
 
-/* .imgtitles{
-  position: absolute;
-  top:10px;
-} */
-#quote{
-  
+/* changes quotes font style*/
+#quote{  
   font-family: cursive ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
-
+/* changes margin in div section */
   div{
     margin:37px;
   }
@@ -78,6 +73,7 @@ main{
   flex-direction: column;
 }
 
+/* changes style for h4 and titles to the cards */
 h4{
   position:absolute;
   left:5px;
@@ -137,9 +133,6 @@ h3{
     height: 350px;
 }
 
-.image-label{
-  position: absolute;
-}
 /* changes styling for the contact me section */
 #contactinfo {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -158,18 +151,24 @@ li{
 
 /* changes styling after screen goes below 1590px */
 @media screen and (max-width: 1590px) {
+  /* universal */
   *{
     box-sizing: border-box;
   }
+
+  /* style changes to application cards(not first application) */
   .other-applications {
     position: relative;
     border: 5px solid rgb(40,121,255);
     width: 92%;
 } 
 
+/* style changes to first application*/
 #first-application {
   height:350px;
   }
+
+
 /* changes styling after screen goes below 768px */
 @media screen and (max-width: 768px) {
   /* changes flex direction in the contents of the webpage */
@@ -233,10 +232,12 @@ li{
     align-items: center;
     width:100%;
   }
+  /* style changes to a */
   a{
     margin: 0px 10px;
     text-decoration: none;
   }
+  /* style changes and felxbox attributes to work section */
   #work{
     display: flex;
     justify-content: flex-start;
@@ -266,6 +267,7 @@ li{
   li a{
     margin:0;
   }
+  /* changes styling and flex attributes of div */
   div{
     display: flex;
     flex-direction: column;
