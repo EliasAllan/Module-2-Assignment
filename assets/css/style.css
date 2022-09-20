@@ -125,6 +125,7 @@ h3{
 #first-application{
   border:5px solid rgb(40,121,255);
   width:92%;
+
 }
 
 
@@ -164,8 +165,11 @@ li{
     position: relative;
     border: 5px solid rgb(40,121,255);
     width: 92%;
-    
 } 
+
+#first-application {
+  height:350px;
+  }
 /* changes styling after screen goes below 768px */
 @media screen and (max-width: 768px) {
   /* changes flex direction in the contents of the webpage */
@@ -220,6 +224,7 @@ li{
     border: 5px solid rgb(40,121,255);
     margin:auto;
     width:100%;
+    height:350px;
   }
 
   /* changes styling and flexbox attributes in the work section */
