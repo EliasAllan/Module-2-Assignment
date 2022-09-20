@@ -9,7 +9,7 @@ This is a portoflio for a Upenn bootcamp student. It's designed to consolidate w
 Click the links on the navigator to go the the respective sections. 
 Click the github link at the bottom of the page to go to my github page. 
 Click the Facebook link at the bottom of the page to go to my Facebook profile. 
-Clicking on the image of an application should take you to the deployed page, unless it's a palceholder image, they are unlinked.
+Clicking on the image of an application should take you to the deployed page, unless it's a placeholder image, they are unlinked.
 
 
 ## Screenshots
