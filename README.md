@@ -15,7 +15,7 @@ Clicking on the image of an application should take you to the deployed page, un
 ## Screenshots
 
 My portfolio includes a navigation bar, a benner section, an about me section, a work section (projects worked on)  and a contact me nav bar at the bottom of the page.
-![Screenshot of the top of the page]([assets\images\READMEscreenshot.png](https://github.com/EliasAllan/Module-2-Assignment/blob/main/assets/images/READMEscreenshot.png))
+![Screenshot of the top of the page](assets/images/READMEscreenshot.png)
 ![Screenshot of the middle of the page](assets\images\READMEscreenshot2.png)
 ![Screenshot of the bottom of the page](assets\images\READMEscreenshot3.png)
 
